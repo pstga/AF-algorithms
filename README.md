@@ -1,5 +1,5 @@
 # AF-algorithms
-Algoritmi folositi la laboratoarele de AF - python 
+Algoritmi folositi la laboratoarele de AF - python: 
 - bfs (+ bfs tree)<br>
 - dfs (+ dfs tree) <br>
 <hr>
@@ -15,5 +15,5 @@ Algoritmi folositi la laboratoarele de AF - python
 - min-weight path in directed tree <br>
 - bellman-ford <br>
 <hr>
-- ford-fulkerson WIP<br>
+- ford - fulkerson WIP<br>
 - edmunds - karp WIP <br > 
