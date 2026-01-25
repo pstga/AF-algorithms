@@ -52,6 +52,3 @@ if __name__ == '__main__':
             s2 = []
             dfs2(adj2, i)
             print(s2, end = ' ')
-
-
-

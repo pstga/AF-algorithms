@@ -1,5 +1,5 @@
 # edmonds karp e doar ford fulkerson cu coada in loc de stiva; schimba dfs ul in bfs
-def ford_fulkerson(graf_original, sursa, destinatie):
+def edmonds_karp(graf_original, sursa, destinatie):
     gf = [rand[:] for rand in graf_original]
     n = len(gf)
     flux_maxim = 0
@@ -48,5 +48,5 @@ retea = [
     [0, 0, 0, 0]  # destinația nu trimite nicăieri
 ]
 
-rezultat = ford_fulkerson(retea, 0, 3)
+rezultat = edmonds_karp(retea, 0, 3)
 print(f"Fluxul maxim calculat este: {rezultat}")

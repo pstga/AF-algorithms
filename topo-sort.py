@@ -1,4 +1,4 @@
-# sortare topologica
+# sortare topologica - kahn
 import heapq as hq
 
 if __name__ == '__main__':

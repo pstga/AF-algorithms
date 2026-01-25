@@ -10,8 +10,9 @@ def init(u):
 #    return r[u]
 
 def unite(u, v):
+    color = r[v]
     for k in range(n+1):
-        if r[k] == r[v]:
+        if r[k] == color:
             r[k] = r[u]
 
 def kruskal(e):
@@ -37,4 +38,3 @@ if __name__ == '__main__':
     for i in range(1, n+1):
         init(i)
     print(kruskal(e))
-
